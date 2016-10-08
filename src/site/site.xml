@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ 
+ Licensed to the Apache Software Foundation (ASF) under one or more
+ contributor license agreements.  See the NOTICE file distributed with
+ this work for additional information regarding copyright ownership.
+ The ASF licenses this file to You under the Apache License, Version 2.0
+ (the "License"); you may not use this file except in compliance with
+ the License.  You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ 
+ -->
+<project name="Maven" xmlns="https://maven.apache.org/xsd/decoration-1.7.0.xsd">
+
+    <skin>
+        <groupId>lt.velykis.maven.skins</groupId>
+        <artifactId>reflow-maven-skin</artifactId>
+        <version>1.1.1</version>
+    </skin>
+
+    <!--
+        Details on how to configure the reflow skin:
+        http://andriusvelykis.github.io/reflow-maven-skin/skin/
+    -->
+    <!--custom>
+        <reflowSkin>
+            <theme>bootswatch-cerulean</theme>
+        </reflowSkin>
+    </custom-->
+
+    <bannerLeft>
+        <name>Apache Flex</name>
+        <src>http://flex.apache.org/images/logo_01_fullcolor-sm.png</src>
+        <href>http://flex.apache.org/</href>
+    </bannerLeft>
+
+    <bannerRight>
+        <name>An Apache Project</name>
+        <src>http://www.apache.org/images/feather-small.gif</src>
+        <href>http://www.apache.org</href>
+    </bannerRight>
+
+    <body>
+        <links>
+            <item name="Home" href="http://flex.apache.org/" />
+        </links>
+
+        <menu name="About Flex">
+            <item name="What is Flex?" href=".html"/>
+            <item name="Features" href=".html"/>
+            <item name="Tour de Flex" href=".html"/>
+            <item name="License &amp; Trademarks" href=".html"/>
+            <item name="The Team" href=".html"/>
+            <item name="Project History" href=".html"/>
+            <item name="Logo and Assets" href=".html"/>
+        </menu>
+
+        <menu name="Community">
+            <item name="How to get involved" href=".html"/>
+            <item name="Mailing Lists" href=".html"/>
+            <item name="Flex Showcase" href=".html"/>
+            <item name="Third-Party" href=".html"/>
+            <item name="Wiki" href="https://cwiki.apache.org/confluence/display/FLEX/Apache+Flex+Wiki"/>
+            <item name="Blog" href="http://blogs.apache.org/flex/"/>
+        </menu>
+
+        <menu name="Development">
+            <item name="Developer FAQ" href=".html"/>
+            <item name="Source Code" href=".html"/>
+            <item name="Bug-Tracker" href="https://issues.apache.org/jira/browse/FLEX"/>
+        </menu>
+
+        <menu name="Documentation">
+            <item name="Getting Started" href=".html"/>
+            <item name="Videos" href=".html"/>
+            <item name="Flex ASDocs" href=".html"/>
+            <item name="FlexJS ASDocs" href=".html"/>
+            <item name="Documentation Reference (Old)" href="http://help.adobe.com/en_US/flex/using/index.html"/>
+            <item name="FlexUnit Tutorials" href=".html"/>
+            <item name="FlexUnit ASDocs" href=".html"/>
+        </menu>
+
+        <menu name="About Apache">
+            <item name="The Apache Software Foundation Website" href="http://www.apache.org"/>
+            <item name="Donations" href="http://www.apache.org/foundation/contributing.html"/>
+            <item name="Sponsorship" href="http://www.apache.org/foundation/sponsorship.html"/>
+            <item name="Thanks" href="http://www.apache.org/foundation/thanks.html"/>
+        </menu>
+
+        <menu name="Download Flex">
+            <item name="SDK Installer (For Application Developers)" href=".html"/>
+            <item name="SDK Source Code (For SDK Developers)" href=".html"/>
+            <item name="SDK Binaries (For SDK Developers)" href=".html"/>
+            <item name="FlexJS 'beta' (For Application Developers)" href=".html"/>
+            <item name="FlexUnit (For Application Developers)" href=".html"/>
+            <item name="Blaze DS Source Code" href=".html"/>
+            <item name="Tour De Flex Source Code" href=".html"/>
+            <item name="Squiggly Spell Checker" href=".html"/>
+            <item name="Flex Utilities" href=".html"/>
+            <item name="Previous Versions" href=".html"/>
+        </menu>
+    </body>
+</project>
