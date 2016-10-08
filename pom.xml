@@ -52,8 +52,7 @@
   <distributionManagement>
     <site>
       <id>apache.website</id>
-      <url>scm:svn:https://svn.apache.org/repos/asf/flex/site/trunk/content/maven/flexjs/${website.path}</url>
-      <!--url>scm:svn:https://svn.apache.org/repos/infra/websites/production/flex/content/maven/flexjs/${website.path}</url-->
+      <url>scm:git:https://git-wip-us.apache.org/repos/asf/flex-site.git</url>
     </site>
   </distributionManagement>
 
@@ -211,6 +210,18 @@
             <version>1.9.5</version>
           </dependency>
         </dependencies>
+      </plugin>
+
+      <!--
+          Make the maven-site-plugin stage the output in the "asf-site" branch
+      -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-scm-publish-plugin</artifactId>
+        <version>1.1</version>
+        <configuration>
+          <scmBranch>asf-site</scmBranch>
+        </configuration>
       </plugin>
     </plugins>
   </build>
