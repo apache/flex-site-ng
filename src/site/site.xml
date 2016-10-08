@@ -29,11 +29,55 @@
         Details on how to configure the reflow skin:
         http://andriusvelykis.github.io/reflow-maven-skin/skin/
     -->
-    <!--custom>
+    <custom>
         <reflowSkin>
-            <theme>bootswatch-cerulean</theme>
+            <theme>bootswatch-spacelab</theme>
+            <!--brand>
+                <name>My Project</name>
+                <href>http://andriusvelykis.github.io/reflow-maven-skin/</href>
+            </brand-->
+            <!--slogan>Super interesting project doing good things.</slogan-->
+            <titleTemplate>%2$s | %1$s</titleTemplate>
+            <!--toc>top</toc-->
+            <!--topNav>Home|About Flex|Community|Development|Documentation|About Apache|Download Flex</topNav-->
+            <!--bottomNav>
+                <column>Main|Download</column>
+                <column>Documentation</column>
+                <column>reports|modules</column>
+            </bottomNav-->
+            <bottomDescription>This is a very good project doing interesting
+                and valuable things.</bottomDescription>
+            <!--pages>
+                <index project="project-id">
+                    <shortTitle>Welcome</shortTitle>
+                    <breadcrumbs>false</breadcrumbs>
+                    <toc>false</toc>
+                    <sections>
+                        <carousel />
+                        <body />
+                        <sidebar />
+                        <thumbs>2</thumbs>
+                        <columns>3</columns>
+                    </sections>
+                </index>
+                <developer-info>
+                    <toc>sidebar</toc>
+                </developer-info>
+            </pages-->
+            <!--theme>bootswatch-cerulean</theme>
+            <pages>
+                <index>
+                    <sections>
+                        <carousel />
+                        <thumbs>2</thumbs>
+                        <body />
+                        <sidebar />
+                        <columns>3</columns>
+                    </sections>
+                </index>
+            </pages-->
         </reflowSkin>
-    </custom-->
+    </custom>
 
     <bannerLeft>
         <name>Apache Flex</name>
@@ -49,37 +93,37 @@
 
     <body>
         <links>
-            <item name="Home" href="http://flex.apache.org/" />
+            <item name="Home" href="index.html"/>
         </links>
 
         <menu name="About Flex">
-            <item name="What is Flex?" href=".html"/>
-            <item name="Features" href=".html"/>
+            <item name="What is Flex?" href="about-whatis.html"/>
+            <item name="Features" href="about-features.html"/>
             <item name="Tour de Flex" href=".html"/>
-            <item name="License &amp; Trademarks" href=".html"/>
-            <item name="The Team" href=".html"/>
-            <item name="Project History" href=".html"/>
-            <item name="Logo and Assets" href=".html"/>
+            <item name="License &amp; Trademarks" href="about-licensing.html"/>
+            <item name="The Team" href="about-people.html"/>
+            <item name="Project History" href="about-history.html"/>
+            <item name="Logo and Assets" href="about-assets.html"/>
         </menu>
 
         <menu name="Community">
-            <item name="How to get involved" href=".html"/>
-            <item name="Mailing Lists" href=".html"/>
-            <item name="Flex Showcase" href=".html"/>
-            <item name="Third-Party" href=".html"/>
+            <item name="How to get involved" href="community-getinvolved.html"/>
+            <item name="Mailing Lists" href="community-mailinglists.html"/>
+            <item name="Flex Showcase" href="community-showcase.html"/>
+            <item name="Third-Party" href="community-3rdparty.html"/>
             <item name="Wiki" href="https://cwiki.apache.org/confluence/display/FLEX/Apache+Flex+Wiki"/>
             <item name="Blog" href="http://blogs.apache.org/flex/"/>
         </menu>
 
         <menu name="Development">
             <item name="Developer FAQ" href="dev-faq.html"/>
-            <item name="Source Code" href=".html"/>
+            <item name="Source Code" href="dev-sourcecode.html"/>
             <item name="Bug-Tracker" href="https://issues.apache.org/jira/browse/FLEX"/>
         </menu>
 
         <menu name="Documentation">
-            <item name="Getting Started" href=".html"/>
-            <item name="Videos" href=".html"/>
+            <item name="Getting Started" href="doc-getstarted.html"/>
+            <item name="Videos" href="doc-videos.html"/>
             <item name="Flex ASDocs" href=".html"/>
             <item name="FlexJS ASDocs" href=".html"/>
             <item name="Documentation Reference (Old)" href="http://help.adobe.com/en_US/flex/using/index.html"/>
