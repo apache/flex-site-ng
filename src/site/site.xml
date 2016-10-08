@@ -72,7 +72,7 @@
         </menu>
 
         <menu name="Development">
-            <item name="Developer FAQ" href=".html"/>
+            <item name="Developer FAQ" href="dev-faq.html"/>
             <item name="Source Code" href=".html"/>
             <item name="Bug-Tracker" href="https://issues.apache.org/jira/browse/FLEX"/>
         </menu>
