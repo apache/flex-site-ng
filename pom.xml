@@ -140,6 +140,27 @@
             <artifactId>velocity</artifactId>
             <version>1.7</version>
           </dependency>
+          <!-- add support for scm/svn site deployment -->
+          <dependency>
+            <groupId>org.apache.maven.wagon</groupId>
+            <artifactId>wagon-scm</artifactId>
+            <version>2.10</version>
+          </dependency>
+          <dependency>
+            <groupId>org.apache.maven.scm</groupId>
+            <artifactId>maven-scm-api</artifactId>
+            <version>1.9.5</version>
+          </dependency>
+          <dependency>
+            <groupId>org.apache.maven.scm</groupId>
+            <artifactId>maven-scm-manager-plexus</artifactId>
+            <version>1.9.5</version>
+          </dependency>
+          <dependency>
+            <groupId>org.apache.maven.scm</groupId>
+            <artifactId>maven-scm-provider-jgit</artifactId>
+            <version>1.9.5</version>
+          </dependency>
         </dependencies>
       </plugin>
 
