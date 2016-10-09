@@ -140,7 +140,7 @@
             <artifactId>velocity</artifactId>
             <version>1.7</version>
           </dependency>
-          <!-- add support for scm/svn site deployment -->
+          <!-- add support for scm/git site deployment -->
           <dependency>
             <groupId>org.apache.maven.wagon</groupId>
             <artifactId>wagon-scm</artifactId>
@@ -158,7 +158,7 @@
           </dependency>
           <dependency>
             <groupId>org.apache.maven.scm</groupId>
-            <artifactId>maven-scm-provider-jgit</artifactId>
+            <artifactId>maven-scm-provider-gitexe</artifactId>
             <version>1.9.5</version>
           </dependency>
         </dependencies>
