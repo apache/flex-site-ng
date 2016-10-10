@@ -129,6 +129,7 @@
             <item name="Documentation Reference (Old)" href="http://help.adobe.com/en_US/flex/using/index.html"/>
             <item name="FlexUnit Tutorials" href=".html"/>
             <item name="FlexUnit ASDocs" href=".html"/>
+            <item name="Contributing to the Flex Website" href="dev-webiste.html"/>
         </menu>
 
         <menu name="About Apache">
