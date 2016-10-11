@@ -129,6 +129,7 @@ At least after this you should see some results in the job overview page.
 
 ## Open Issues
 
-1. Currently the automatic commit used by the `maven-site-plugin` doesn't seem to allow committing, so I'll have to figure out that one.
-2. As soon the build works and the content is migrated, we have to request Infa to setup `gitpubsub` to sync the content of the `asf-site` with the Flex projects content in the Infra webserver SVN repo.
+1. Currently the `buildbot` job doesn't automatically start as soon as someone checks in something into the `maven-site` branch.
+2. Currently the automatic commit used by the `maven-site-plugin` doesn't seem to allow committing, so I'll have to figure out that one.
+3. As soon the build works and the content is migrated, we have to request Infa to setup `gitpubsub` to sync the content of the `asf-site` with the Flex projects content in the Infra webserver SVN repo.
 
