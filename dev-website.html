@@ -8,7 +8,7 @@
 
 	<head>
 		<meta charset="UTF-8" />
-		<title>Sitemap | Maven</title>
+		<title>Contributing to the Flex Website | Maven</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="" />
 		<meta http-equiv="content-language" content="en" />
@@ -33,7 +33,7 @@
 
 	</head>
 
-	<body class="page-sitemap project-flex-site" data-spy="scroll" data-offset="60" data-target="#toc-scroll-target">
+	<body class="page-dev-website project-flex-site" data-spy="scroll" data-offset="60" data-target="#toc-scroll-target">
 
 		<div class="navbar navbar-fixed-top">
 			<div class="navbar-inner">
@@ -77,7 +77,7 @@
 									<li ><a href="https://issues.apache.org/jira/browse/FLEX" title="Bug-Tracker" class="externalLink">Bug-Tracker</a></li>
 								</ul>
 							</li>
-							<li class="dropdown">
+							<li class="dropdown active">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
 								<ul class="dropdown-menu">
 									<li ><a href="doc-getstarted.html" title="Getting Started">Getting Started</a></li>
@@ -87,7 +87,7 @@
 									<li ><a href="http://help.adobe.com/en_US/flex/using/index.html" title="Documentation Reference (Old)" class="externalLink">Documentation Reference (Old)</a></li>
 									<li ><a href=".html" title="FlexUnit Tutorials">FlexUnit Tutorials</a></li>
 									<li ><a href=".html" title="FlexUnit ASDocs">FlexUnit ASDocs</a></li>
-									<li ><a href="dev-website.html" title="Contributing to the Flex Website">Contributing to the Flex Website</a></li>
+									<li class="active"><a href="" title="Contributing to the Flex Website">Contributing to the Flex Website</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">
@@ -144,87 +144,169 @@
 	<div class="row">
 		<div class="span12">
 			<div class="body-content">
+<div class="page-header">
+ <h1>Contributing to the Flex Website</h1>
+</div> 
+<p>This document describes how the Maven version of the Flex Website is created and why it is done that way.</p> 
 <div class="section"> 
- <div class="page-header">
-  <h2 id="Sitemap">Sitemap</h2>
- </div> 
- <p>This page lists all entries of the navigation menu in expanded form.</p> 
- <div class="section"> 
-  <div class="section"> 
-   <h4 id="About_Flex">About Flex</h4> 
-   <hr /> 
-   <ul> 
-    <li><a href="about-whatis.html">What is Flex?</a></li> 
-    <li><a href="about-features.html">Features</a></li> 
-    <li><a href=".html">Tour de Flex</a></li> 
-    <li><a href="about-licensing.html">License &amp; Trademarks</a></li> 
-    <li><a href="about-people.html">The Team</a></li> 
-    <li><a href="about-history.html">Project History</a></li> 
-    <li><a href="about-assets.html">Logo and Assets</a></li> 
-   </ul> 
-  </div> 
-  <div class="section"> 
-   <h4 id="Community">Community</h4> 
-   <hr /> 
-   <ul> 
-    <li><a href="community-getinvolved.html">How to get involved</a></li> 
-    <li><a href="community-mailinglists.html">Mailing Lists</a></li> 
-    <li><a href="community-showcase.html">Flex Showcase</a></li> 
-    <li><a href="community-3rdparty.html">Third-Party</a></li> 
-    <li><a class="externalLink" href="https://cwiki.apache.org/confluence/display/FLEX/Apache+Flex+Wiki">Wiki</a></li> 
-    <li><a class="externalLink" href="http://blogs.apache.org/flex/">Blog</a></li> 
-   </ul> 
-  </div> 
-  <div class="section"> 
-   <h4 id="Development">Development</h4> 
-   <hr /> 
-   <ul> 
-    <li><a href="dev-faq.html">Developer FAQ</a></li> 
-    <li><a href="dev-sourcecode.html">Source Code</a></li> 
-    <li><a class="externalLink" href="https://issues.apache.org/jira/browse/FLEX">Bug-Tracker</a></li> 
-   </ul> 
-  </div> 
-  <div class="section"> 
-   <h4 id="Documentation">Documentation</h4> 
-   <hr /> 
-   <ul> 
-    <li><a href="doc-getstarted.html">Getting Started</a></li> 
-    <li><a href="doc-videos.html">Videos</a></li> 
-    <li><a href=".html">Flex ASDocs</a></li> 
-    <li><a href=".html">FlexJS ASDocs</a></li> 
-    <li><a class="externalLink" href="http://help.adobe.com/en_US/flex/using/index.html">Documentation Reference (Old)</a></li> 
-    <li><a href=".html">FlexUnit Tutorials</a></li> 
-    <li><a href=".html">FlexUnit ASDocs</a></li> 
-    <li><a href="dev-website.html">Contributing to the Flex Website</a></li> 
-   </ul> 
-  </div> 
-  <div class="section"> 
-   <h4 id="About_Apache">About Apache</h4> 
-   <hr /> 
-   <ul> 
-    <li><a class="externalLink" href="http://www.apache.org">The Apache Software Foundation Website</a></li> 
-    <li><a class="externalLink" href="http://www.apache.org/foundation/contributing.html">Donations</a></li> 
-    <li><a class="externalLink" href="http://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li> 
-    <li><a class="externalLink" href="http://www.apache.org/foundation/thanks.html">Thanks</a></li> 
-   </ul> 
-  </div> 
-  <div class="section"> 
-   <h4 id="Download_Flex">Download Flex</h4> 
-   <hr /> 
-   <ul> 
-    <li><a href=".html">SDK Installer (For Application Developers)</a></li> 
-    <li><a href=".html">SDK Source Code (For SDK Developers)</a></li> 
-    <li><a href=".html">SDK Binaries (For SDK Developers)</a></li> 
-    <li><a href=".html">FlexJS 'beta' (For Application Developers)</a></li> 
-    <li><a href=".html">FlexUnit (For Application Developers)</a></li> 
-    <li><a href=".html">Blaze DS Source Code</a></li> 
-    <li><a href=".html">Tour De Flex Source Code</a></li> 
-    <li><a href=".html">Squiggly Spell Checker</a></li> 
-    <li><a href=".html">Flex Utilities</a></li> 
-    <li><a href=".html">Previous Versions</a></li> 
-   </ul> 
+ <h2 id="The_Git_repo_and_its_structure">The Git repo and its structure</h2> 
+ <p>Currently the <tt>flex-site</tt> repo, which is available at:</p> 
+ <div class="source"> 
+  <div class="source"> 
+   <pre>https://git-wip-us.apache.org/repos/asf/flex-site.git
+</pre> 
   </div> 
  </div> 
+ <p>Because we haven’t quite decided which path to go in migrating away from the Apache CMS and SVN to a GIT-based version, we have decided to create branches for each approach and decide later on which of them we will be using. The document you are reading is generated by the <tt>maven-site</tt> branch, which is based upon Apache Maven using the <tt>maven-site-plugin</tt></p> 
+ <p>The repository currently contains several branches:</p> 
+ <ul> 
+  <li><tt>master</tt> (Is just there to prevent problems when checking out)</li> 
+  <li><tt>maven-site</tt> (Contains this document and is a version of the Apache Flex website, which is built from markdown content using the maven-site-plugin in a Maven build)</li> 
+  <li><tt>asf-site</tt> (Contains the HTML the <tt>maven-site</tt> project creates when running the `site:deploy goal. This it the static code of the Apache Flex website which will be served by the Apache Webservers)</li> 
+ </ul> 
+</div> 
+<div class="section"> 
+ <h2 id="How_the_site_is_generated">How the site is generated</h2> 
+ <p>Currently the projects are able to produce content in their own repositories. The main Apache Foundation webservers server their content from a SVN repository hosted at:</p> 
+ <div class="source"> 
+  <div class="source"> 
+   <pre>https://svn.apache.org/repos/infra/websites/production/{project-name}
+</pre> 
+  </div> 
+ </div> 
+ <p>Each project has a sub-directory which is probably mapped to a virtual host in the HTTPD config. For the Apache Flex project the <tt>flex.apache.org</tt> domain is probably mapped to <tt>https://svn.apache.org/repos/infra/websites/production/flex</tt></p> 
+ <p>The projects however cannot publish direct into this repository. Therefore the Infra team have created tools to sync content from projects repositories with their sub-directory of that SVN repo:</p> 
+ <ul> 
+  <li>For SVN based sites this is svnpubsub</li> 
+  <li>For GIT based sites this is gitpubsub</li> 
+  <li>The Apache CMS which sort of generates content from a SVN repo and automatically publishes that so some sort of staging area from which you can review changes and release them to production using a web-ui (This is the way the Apache Flex website is currently created)</li> 
+ </ul> 
+ <p>As we are planning on using GIT and therefore we have to migrate away from the Apache CMS, which can only deal with SVN based repositories.</p> 
+ <p>The <tt>maven-site</tt> branch contains a simple Maven project which utilizes the <tt>maven-site-plugin</tt> to generate the Website and render <tt>Markdown</tt> content as nice looking HTML Website. This static content is then checked in to the <tt>asf-site</tt> branch of the same GIT repository.</p> 
+ <p>As this checking-in requires commit permissions, we cannot run this job on the normal ASF Jenkins instances. The only build system that allows automatic commits to git is <tt>buildbot</tt> and here you have to use the built in commands to execute the GIT operation. Setting up a job here was a little more tricky than with jenkins as you have to provide the job definition by adding a config file to a SNV repo hosted at:</p> 
+ <div class="source"> 
+  <div class="source"> 
+   <pre>https://svn.apache.org/repos/infra/infrastructure/buildbot/aegis/buildmaster/master1/projects
+</pre> 
+  </div> 
+ </div> 
+ <p>Currently the config file (<tt>flex.conf</tt>) for building the <tt>maven-site</tt> version of the Flex website looks like this:</p> 
+ <div class="source"> 
+  <div class="source"> 
+   <pre># This is the config file for generating the website of the flex project.
+
+#########################################################################################
+# Add a new scheduler for the current job
+#########################################################################################
+
+# Check the &quot;maven-site&quot; branch in the &quot;flex-site&quot; git repo for changes and trigger
+# the &quot;maven-flex-site&quot; job if there are changes
+c['schedulers'].append(SingleBranchScheduler(name=&quot;on-maven-flex-site-commit&quot;,
+                    change_filter=filter.ChangeFilter(branch='maven-site' , project='flex-site'),
+                    treeStableTimer=2,
+                    builderNames=[&quot;maven-flex-site&quot;]))
+
+
+
+#########################################################################################
+# Define the Job
+#########################################################################################
+
+# Build Factory (Define which steps have to be performed to execute the build)
+flexSiteJobFactory = factory.BuildFactory()
+# 1. Checkout the &quot;flex-site&quot; branch of the flex-site repo
+flexSiteJobFactory.addStep(Git(
+    repourl=&quot;https://git-wip-us.apache.org/repos/asf/flex-site.git&quot;,
+    branch='maven-site',
+    workdir=&quot;build&quot;,
+    retry=(10, 5), # retry 5 times with a 10 second delay
+    retryFetch=True,
+    mode='full',
+    method='fresh'
+    ))
+
+# 2. Run a Maven &quot;clean site&quot; build on the checked out repo.
+# (This produces the new website content in the &quot;target/staging&quot; directory)
+flexSiteJobFactory.addStep(Compile(command=[&quot;mvn&quot; , &quot;clean&quot; , &quot;site&quot;, &quot;-X&quot;]))
+
+# 3. Clone repo again in &quot;target/asf-site&quot;
+flexSiteJobFactory.addStep(ShellCommand(command=[&quot;git&quot; , &quot;clone&quot; , &quot;https://git-wip-us.apache.org/repos/asf/flex-site.git&quot;, &quot;target/asf-site&quot;]))
+
+# 4. Checkout the &quot;asf-site&quot; branch
+flexSiteJobFactory.addStep(ShellCommand(command=[&quot;git&quot; , &quot;checkout&quot; , &quot;asf-site&quot;], workdir=&quot;/home/buildslave/slave/maven-flex-site-build-dir/build/target/asf-site&quot;))
+
+# 5. Copy content over from the &quot;target/staging&quot; to the &quot;target/asf-site&quot; directory
+flexSiteJobFactory.addStep(ShellCommand(command=[&quot;cp&quot; , &quot;-a&quot; , &quot;/home/buildslave/slave/maven-flex-site-build-dir/build/target/site/.&quot;, &quot;/home/buildslave/slave/maven-flex-site-build-dir/build/target/asf-site/&quot;]))
+
+# 6. Add all the updated files to the GIT stage
+flexSiteJobFactory.addStep(ShellCommand(command=[&quot;git&quot; , &quot;add&quot; , &quot;.&quot;], workdir=&quot;/home/buildslave/slave/maven-flex-site-build-dir/build/target/asf-site&quot;))
+
+# 7. Commit the staged changes
+flexSiteJobFactory.addStep(ShellCommand(command=[&quot;git&quot; , &quot;commit&quot; , &quot;-m&quot; , &quot;Automatic Site Publish by Buildbot&quot;], workdir=&quot;/home/buildslave/slave/maven-flex-site-build-dir/build/target/asf-site&quot;))
+
+# 8. Push the update back to the remot repo
+flexSiteJobFactory.addStep(ShellCommand(command=[&quot;git&quot; , &quot;push&quot;, &quot;origin&quot;, &quot;asf-site&quot;], workdir=&quot;/home/buildslave/slave/maven-flex-site-build-dir/build/target/asf-site&quot;))
+
+
+#########################################################################################
+# Define the Builder
+#########################################################################################
+
+# Run the job with the name &quot;maven-flex-site&quot; on the agent with the name &quot;bb_slave1_ubuntu&quot;
+# Use the working directory &quot;maven-flex-site-build-dir&quot; and report the outcome in the
+# category &quot;maven-flex-site-category&quot;
+flexSiteBuild = {'name': &quot;maven-flex-site&quot;,
+      'slavename': &quot;bb_slave1_ubuntu&quot;,
+      'builddir': &quot;maven-flex-site-build-dir&quot;,
+      'factory': flexSiteJobFactory,
+      'category': &quot;maven-flex-site-category&quot;,
+     }
+
+
+
+#########################################################################################
+# Add the new flexSiteBuild to the other builders (
+#########################################################################################
+
+c['builders'].append(flexSiteBuild)
+
+
+
+#########################################################################################
+# Define how the status should be reported
+#########################################################################################
+
+c['status'].append(mail.MailNotifier(fromaddr=&quot;buildbot@apache.org&quot;,
+                                      extraRecipients=[&quot;commits@flex.apache.org&quot;],
+                                      sendToInterestedUsers=False,
+                                      mode=&quot;change&quot;,
+                                      categories=[&quot;maven-flex-site-category&quot;]))
+</pre> 
+  </div> 
+ </div> 
+ <p>In order to make <tt>buildbot</tt> find the new config, you need to add it to a file called <tt>projects.conf</tt> in the same directory as the config file. </p> 
+ <p>As soon as you commit, <tt>buildbot</tt> will automatically process the config file and report any problems via Email.</p> 
+ <p>In above script I defined a build-job called <tt>maven-flex-site</tt> so the url to view it’s state is:</p> 
+ <div class="source"> 
+  <div class="source"> 
+   <pre>https://ci.apache.org/builders/maven-flex-site/
+</pre> 
+  </div> 
+ </div> 
+ <p>Unfortunately you can’t directly click on a button to run the build, but you can always trigger a build manually using IRC. In order to do this, you need to </p> 
+ <ol style="list-style-type: decimal"> 
+  <li>connect to the channel <tt>#asftest</tt> on a <tt>freenode</tt> IRC server (I used <tt>chat.freenode.net</tt>).</li> 
+  <li>send the following message: <tt>pony-bot: force build maven-flex-site because ponies</tt></li> 
+ </ol> 
+ <p>(Don’t ask me about the ponies. I was told there are multiple bots listening and <tt>pony-bot</tt> is one that is able to trigger the build … and the <tt>because ponies</tt> makes Pono happy, because he seems to like ponies a lot ;-) )</p> 
+ <p>At least after this you should see some results in the job overview page.</p> 
+</div> 
+<div class="section"> 
+ <h2 id="Open_Issues">Open Issues</h2> 
+ <ol style="list-style-type: decimal"> 
+  <li>Currently the <tt>buildbot</tt> job doesn’t automatically start as soon as someone checks in something into the <tt>maven-site</tt> branch.</li> 
+  <li>As soon the build works and the content is migrated, we have to request Infa to setup <tt>gitpubsub</tt> to sync the content of the <tt>asf-site</tt> with the Flex projects content in the Infra webserver SVN repo.</li> 
+ </ol> 
 </div>
 			</div>
 		</div>
@@ -313,8 +395,8 @@
 						<li >
 							<a href=".html" title="FlexUnit ASDocs">FlexUnit ASDocs</a>
 						</li>
-						<li >
-							<a href="dev-website.html" title="Contributing to the Flex Website">Contributing to the Flex Website</a>
+						<li class="active">
+							<a href="#" title="Contributing to the Flex Website">Contributing to the Flex Website</a>
 						</li>
 						<li class="nav-header">About Apache</li>
 						<li >
