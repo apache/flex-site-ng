@@ -1,1 +1,56 @@
-/* You can override this file with your own styles */
+/* Images Overlay
+------------------*/
+.picture {position: relative;}
+.picture img {width: 100%; height: auto;}
+
+.image-overlay-link,
+.image-overlay-zoom {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 40;
+    display: none;
+    background-color: #d9d9d9;
+    background: rgba(277, 277, 277, 0.7);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    cursor: pointer;
+}
+
+.image-overlay-link {
+    background-image: url(../images/overlay-icon-01.png);
+}
+
+.image-overlay-zoom {
+    background-image: url(../images/overlay-icon-02.png);
+}
+
+/* Thumbnails
+------------------*/
+.item-description {margin-bottom: 30px;}
+.item-description.alt {margin-bottom:0;}
+.item-description.related {margin-bottom:0;}
+
+.item-description h5 {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 12px 0 8px 0;
+    margin: 0 0 8px 0;
+    border-bottom: 1px solid #e9e9e9;
+    letter-spacing: 0;
+}
+
+.item-description h5 span {
+    display: block;
+    color: #888;
+    font-weight: normal;
+    margin-top: 3px;
+}
+
+.item-description a {color:#404040;}
+.item-description a:hover {color:#666;}
+.item-description p {color: #666; margin-bottom: 0;}
