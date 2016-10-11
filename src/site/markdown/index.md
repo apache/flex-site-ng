@@ -18,16 +18,24 @@
 
 #### Licensing
 
+![Licensing](img/icon-licensing.png)
+
 Apache Flex® is completely open-source. Apache Flex® is an Apache project, and is released under the Apache License, version 2.0, so you know it is compatible with your business needs. Plus, it is backed by the Apache Community for updates, support and help.
 
 Read More
 
 #### Desktop &amp; Mobile Apps
+
+![Licensing](img/icon-desktop-mobile.png)
+
 Build applications that target all browsers by leveraging the Adobe Flash Player and JavaScript, make desktop application by leveraging the Adobe Integrated Runtime (Adobe AIR) or create powerful, cross-platform mobile applications that target Apple iPods, iPhones, iPads, Android based smartphones and tablets, and  Blackberry Playbook devices.
         
 Read More
 
 #### Flex Showcase
+
+![Licensing](img/icon-showcase.png)
+
 A selection of the many desktop and mobile applications written with Flex.
 
 Proud of your Flex application? You can easily submit a request to have it shown here.
@@ -35,6 +43,8 @@ Proud of your Flex application? You can easily submit a request to have it shown
 Read More
 
 #### Tooling
+
+![Licensing](img/icon-tooling.png)
 
 Utilize the tools you are already familiar with.  Apache Flex® utilizes MXML for layout and AS3 (an ECMAScript based language like JavaScript) for coding. Use the Eclipse-based IDEs like Adobe Flash Builder and FDT or use IntelliJ IDEA or any text editor to make your applications.
 
@@ -44,17 +54,25 @@ Read More
 
 #### FlexJS - An Introduction
 
+![Licensing](img/training-flex-introduction.png)
+
 FlexJS™ is a new application development framework that cross compiles MXML and ActionScript into HTML and JavaScript. It runs in web, desktop and mobile(app) in swf format and runs in browser based environments as HTML/JS/CSS files without the need for the Flash Player plugin. It brings the advantages of Flex to the JavaScript world.
 
 #### The Flex in a Week Series
+
+![Flex in a Week](img/training-flex-in-a-week.png)
 
 The Flex in a Week training series consists of videos and exercises to teach experienced programmers how to program using the Flex 4.5 framework and Flash Builder 4.5. To gain the most from this series, watch the videos and complete the exercises in the order in which they are listed.
 
 #### Flex In A Week Video Series
 
+![Flex in a Week Video](img/training-flex-in-a-week-video.png)
+
 The Flex in a Week video training course will help you understand how you can leverage the open source Flex framework to build RIAs. To make it easier for you to learn Flex, you will use the Eclipse-based Flash Builder 4.5 development tool, which includes the Flex framework and provides features such as intelligent coding, interactive step-through debugging, and visual design of the user layout.
 
 #### Building interactive maps with Flex
+
+![Building interactive maps with Flex](img/training-building-interactive-maps-with-flex.jpg)
 
 It has never been easier to build interactive online maps with Flex. There is a wide range of APIs now available. The focus of this article is building a simple map application using the open-source Modest Maps Flex API. Modest Maps offers a number of advantages over other Flex mapping APIs including the ability to point at multiple basemap providers and direct access to the source code.
 
