@@ -39,7 +39,7 @@
                     <sections>
                         <carousel />
                         <columns>4</columns>
-                        <columns>5</columns>
+                        <columns>6</columns>
                     </sections>
                 </index>
             </pages>
