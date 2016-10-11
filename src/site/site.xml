@@ -31,57 +31,23 @@
     -->
     <custom>
         <reflowSkin>
-            <theme>bootswatch-spacelab</theme>
-            <!--brand>
-                <name>My Project</name>
-                <href>http://andriusvelykis.github.io/reflow-maven-skin/</href>
-            </brand-->
-            <!--slogan>Super interesting project doing good things.</slogan-->
+            <theme>site</theme>
             <titleTemplate>%2$s | %1$s</titleTemplate>
-            <!--toc>top</toc-->
-            <!--topNav>Home|About Flex|Community|Development|Documentation|About Apache|Download Flex</topNav-->
-            <!--bottomNav>
-                <column>Main|Download</column>
-                <column>Documentation</column>
-                <column>reports|modules</column>
-            </bottomNav-->
-            <bottomDescription>This is a very good project doing interesting
-                and valuable things.</bottomDescription>
-            <!--pages>
-                <index project="project-id">
-                    <shortTitle>Welcome</shortTitle>
-                    <breadcrumbs>false</breadcrumbs>
-                    <toc>false</toc>
-                    <sections>
-                        <carousel />
-                        <body />
-                        <sidebar />
-                        <thumbs>2</thumbs>
-                        <columns>3</columns>
-                    </sections>
-                </index>
-                <developer-info>
-                    <toc>sidebar</toc>
-                </developer-info>
-            </pages-->
-            <!--theme>bootswatch-cerulean</theme>
+            <breadcrumbs>false</breadcrumbs>
             <pages>
                 <index>
                     <sections>
                         <carousel />
-                        <thumbs>2</thumbs>
                         <body />
-                        <sidebar />
-                        <columns>3</columns>
                     </sections>
                 </index>
-            </pages-->
+            </pages>
         </reflowSkin>
     </custom>
 
     <bannerLeft>
         <name>Apache Flex</name>
-        <src>http://flex.apache.org/images/logo_01_fullcolor-sm.png</src>
+        <src>img/logo_01_fullcolor-sm.png</src>
         <href>http://flex.apache.org/</href>
     </bannerLeft>
 
@@ -129,7 +95,7 @@
             <item name="Documentation Reference (Old)" href="http://help.adobe.com/en_US/flex/using/index.html"/>
             <item name="FlexUnit Tutorials" href=".html"/>
             <item name="FlexUnit ASDocs" href=".html"/>
-            <item name="Contributing to the Flex Website" href="dev-webiste.html"/>
+            <item name="Contributing to the Flex Website" href="dev-website.html"/>
         </menu>
 
         <menu name="About Apache">
