@@ -125,6 +125,11 @@
         </configuration>
         <dependencies>
           <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+          </dependency>
+          <dependency>
             <groupId>org.apache.maven.doxia</groupId>
             <artifactId>doxia-core</artifactId>
             <version>1.6</version>
