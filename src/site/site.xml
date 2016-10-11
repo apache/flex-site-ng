@@ -38,7 +38,8 @@
                 <index>
                     <sections>
                         <carousel />
-                        <body />
+                        <columns>4</columns>
+                        <columns>5</columns>
                     </sections>
                 </index>
             </pages>
