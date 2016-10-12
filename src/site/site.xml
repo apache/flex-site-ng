@@ -44,6 +44,15 @@
                         <columns>6</columns>
                     </sections>
                 </index>
+                <about-features>
+                    <sections>
+                        <body/>
+                        <columns>2</columns>
+                        <columns>2</columns>
+                        <columns>2</columns>
+                        <columns>2</columns>
+                    </sections>
+                </about-features>
                 <about-people>
                     <sections>
                         <body/>
@@ -60,6 +69,15 @@
                         <body/>
                     </sections>
                 </about-people>
+                <doc-videos>
+                    <sections>
+                        <body/>
+                        <columns>4</columns>
+                        <columns>4</columns>
+                        <columns>4</columns>
+                        <columns>4</columns>
+                    </sections>
+                </doc-videos>
             </pages>
         </reflowSkin>
     </custom>
@@ -133,16 +151,16 @@
         </menu>
 
         <menu name="Download Flex">
-            <item name="SDK Installer (For Application Developers)" href=".html"/>
-            <item name="SDK Source Code (For SDK Developers)" href=".html"/>
-            <item name="SDK Binaries (For SDK Developers)" href=".html"/>
-            <item name="FlexJS 'beta' (For Application Developers)" href=".html"/>
-            <item name="FlexUnit (For Application Developers)" href=".html"/>
-            <item name="Blaze DS Source Code" href=".html"/>
-            <item name="Tour De Flex Source Code" href=".html"/>
-            <item name="Squiggly Spell Checker" href=".html"/>
-            <item name="Flex Utilities" href=".html"/>
-            <item name="Previous Versions" href=".html"/>
+            <item name="SDK Installer (For Application Developers)" href="download-installer.html"/>
+            <item name="SDK Source Code (For SDK Developers)" href="download-source.html"/>
+            <item name="SDK Binaries (For SDK Developers)" href="download-binaries.html"/>
+            <item name="FlexJS 'beta' (For Application Developers)" href="download-flexjs.html"/>
+            <item name="FlexUnit (For Application Developers)" href="download-flexunit.html"/>
+            <item name="Blaze DS Source Code" href="download-blazeds.html"/>
+            <item name="Tour De Flex Source Code" href="download-tourdeflex.html"/>
+            <item name="Squiggly Spell Checker" href="download-squiggly.html"/>
+            <item name="Flex Utilities" href="download-utilities.html"/>
+            <item name="Previous Versions" href="download-archive.html"/>
         </menu>
     </body>
 </project>

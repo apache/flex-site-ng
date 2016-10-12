@@ -1,0 +1,80 @@
+# Download Apache FlexJS
+
+Use the links below to download the Apache FlexJS™ 0.7.0 ‘beta’ release from one of our mirrors. You must verify the integrity of the downloaded files using signatures downloaded from this page.
+
+Only current recommended releases are available on the main distribution site and its mirrors.
+
+The Apache FlexJS SDK has some compile-time and run-time dependencies.  Please make sure to review the dependencies section if you plan on re-compiling the source from scratch.
+
+**Please review the release notes before installing or compiling this release.**
+
+## Current Release (0.7.0)
+
+The Apache Flex team is pleased to offer this release, available as of 07 September 2016.  Expect lots of bugs and missing features.
+
+Binaries are provided as a convenience for those who do not wish to compile FlexJS themselves.  The 0.7.0 binaries were published on 07 September 2016.
+
+**Please be aware of the dependencies listed in the section below.**  They are required in order to compile the Apache FlexJS SDK.  The [README][15] explains these requirements further.
+
+- Release Notes : [RELEASE_NOTES][2]
+- README : [README][15]
+- Source (tar.gz) : [apache-flex-flexjs-0.7.0-src.tar.gz][3] [[PGP](http://www.apache.org/dist/flex/flexjs/0.7.0/apache-flex-flexjs-0.7.0-src.tar.gz.asc)] [[MD5](http://www.apache.org/dist/flex/flexjs/0.7.0/apache-flex-flexjs-0.7.0-src.tar.gz.md5)]
+- Source (zip) : [apache-flex-flexjs-0.7.0-src.zip][4] [[PGP](http://www.apache.org/dist/flex/flexjs/0.7.0/apache-flex-flexjs-0.7.0-src.zip.asc)] [[MD5](http://www.apache.org/dist/flex/flexjs/0.7.0/apache-flex-flexjs-0.7.0-src.zip.md5)]
+- Binaries (tar.gz) : [apache-flex-flexjs-0.7.0-bin.tar.gz][7] [[PGP](http://www.apache.org/dist/flex/flexjs/0.7.0/binaries/apache-flex-flexjs-0.7.0-bin.tar.gz.asc)] [[MD5](http://www.apache.org/dist/flex/flexjs/0.7.0/binaries/apache-flex-flexjs-0.7.0-bin.tar.gz.md5)]
+- Binaries (zip) : [apache-flex-flexjs-0.7.0-bin.zip][8] [[PGP](http://www.apache.org/dist/flex/flexjs/0.7.0/binaries/apache-flex-flexjs-0.7.0-bin.zip.asc)] [[MD5](http://www.apache.org/dist/flex/flexjs/0.7.0/binaries/apache-flex-flexjs-0.7.0-bin.zip.md5)]
+
+### Dependencies
+
+Apache FlexJS requires some build tools which must be installed prior to building FlexJS.  Some of these have different licenses. See the Software [Dependencies section][15] within the [README][15] for more information on the external software dependencies.  If you plan to compile the sources, it is best to follow the instructions for downloading (and building) [Apache Flex FlexUnit][16] and [Apache Flex FalconJX][17] first.  Click on the links to access instructions for those dependencies.
+
+### General Requirements
+
+- Java SDK 1.6 or greater
+- ANT 1.7.1 or greater
+- Google Closure Library
+- Adobe Flash Player playerglobal.swc
+- Apache Flex FalconJX 0.7.0 or greater
+- Apache Flex FlexUnit 4.2 or greater
+- Apache Flex 4.8 or greater
+
+### Software Dependencies
+
+The Apache FlexJS framework does not have direct dependencies on third-party software.  Applications built with Apache FlexJS need the Google Closure Library.
+
+### Verify the integrity of the files
+
+Apache relies on 3rd party mirrors to distribute their software.  Because these releases are hosted on servers that are not under our control, we strongly recommend that you verify the integrity of the binaries or source code before you install it using the PGP or MD5 signatures listed next to the downloads.  This involves a few extra steps, but it will verify that you are getting a true Apache release.
+
+The PGP signatures can be verified using PGP or GPG. First download the [KEYS][10] as well as the asc signature file for the relevant distribution. Make sure you get these files as linked from this page (rather than a mirror) to insure the integrity of the files.
+
+    % pgpk -a KEYS
+
+    % pgpv apache-flex-flexjs-0.7.0-src.tar.gz.asc
+
+*or*
+
+    % pgp -ka KEYS
+
+    % pgp apache-flex-flexjs-0.7.0-src.tar.gz.asc
+
+*or*
+
+    % gpg --import KEYS
+
+    % gpg --verify apache-flex-flexjs-0.7.0-src.tar.gz.asc
+
+Alternatively, you can verify the MD5 signature on the files. A unix/Mac program called `md5` or `md5sum` is included in many unix distributions. It is also available as part of [GNU Textutils][11]. Windows users can get binary md5 programs from [here][12] , [here][13] , or [here][14]. An MD5 signature consists of 32 hex characters, and a SHA1 signature consists of 40 hex characters. Ensure your generated signature string matches the signature string published in the files above.
+
+[2]: http://www.apache.org/dyn/closer.lua/flex/flexjs/0.7.0/RELEASE_NOTES
+[3]: http://www.apache.org/dyn/closer.lua/flex/flexjs/0.7.0/apache-flex-flexjs-0.7.0-src.tar.gz
+[4]: http://www.apache.org/dyn/closer.lua/flex/flexjs/0.7.0/apache-flex-flexjs-0.7.0-src.zip
+[7]: http://www.apache.org/dyn/closer.lua/flex/flexjs/0.7.0/binaries/apache-flex-flexjs-0.7.0-bin.tar.gz
+[8]: http://www.apache.org/dyn/closer.lua/flex/flexjs/0.7.0/binaries/apache-flex-flexjs-0.7.0-bin.zip
+[10]: http://www.apache.org/dist/flex/KEYS
+[11]: http://www.gnu.org/software/textutils/textutils.html
+[12]: http://www.fourmilab.ch/md5/
+[13]: http://www.pc-tools.net/win32/freeware/console/
+[14]: http://www.slavasoft.com/fsum/
+[15]: http://www.apache.org/dyn/closer.lua/flex/flexjs/0.7.0/READme
+[16]: http://flex.apache.org/download-flexunit.html
+[17]: http://flex.apache.org/download-falconjx.html
