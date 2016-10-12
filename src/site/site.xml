@@ -32,10 +32,12 @@
     <custom>
         <reflowSkin>
             <theme>site</theme>
-            <titleTemplate>%2$s | %1$s</titleTemplate>
+            <titleTemplate>Apache Flex® - %2$s</titleTemplate>
             <breadcrumbs>false</breadcrumbs>
+            <highlightJs>true</highlightJs>
             <pages>
                 <index>
+                    <titleTemplate>Apache Flex®</titleTemplate>
                     <sections>
                         <carousel />
                         <columns>4</columns>
@@ -59,6 +61,14 @@
     </bannerRight>
 
     <body>
+        <head>
+            <link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+            <link rel="apple-touch-icon" href="img/apple-touch-icon-60.png"/>
+            <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76.png"/>
+            <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120.png"/>
+            <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152.png"/>
+        </head>
+
         <links>
             <item name="Home" href="index.html"/>
         </links>
