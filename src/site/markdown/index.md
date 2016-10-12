@@ -12,7 +12,7 @@
 
 #### Apache Flex SDK 4.15 has been released!
 
-[![Reflow Velocity tools](img/slider3.jpg)]
+[![Reflow Velocity tools](img/slider4.jpg)]
 
 ---
 
