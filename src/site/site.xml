@@ -44,6 +44,22 @@
                         <columns>6</columns>
                     </sections>
                 </index>
+                <about-people>
+                    <sections>
+                        <body/>
+                        <columns>4</columns>
+                        <columns>4</columns>
+                        <columns>4</columns>
+                        <columns>4</columns>
+                        <columns>4</columns>
+                        <columns>4</columns>
+                        <columns>4</columns>
+                        <columns>4</columns>
+                        <body/>
+                        <columns>3</columns>
+                        <body/>
+                    </sections>
+                </about-people>
             </pages>
         </reflowSkin>
     </custom>
