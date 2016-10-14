@@ -35,6 +35,11 @@
             <titleTemplate>Apache Flex® - %2$s</titleTemplate>
             <breadcrumbs>false</breadcrumbs>
             <highlightJs>true</highlightJs>
+            <bottomNav maxSpan="12">
+                <column>About Flex|Community</column>
+                <column>Development|Documentation</column>
+                <column>About Apache|Download Flex</column>
+            </bottomNav>
             <pages>
                 <index>
                     <titleTemplate>Apache Flex®</titleTemplate>
