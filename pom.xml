@@ -33,6 +33,7 @@
 
   <name>Apache Flex - Website</name>
   <description>The Apache Flex Website Project</description>
+  <url>http://flex.apache.org</url>
 
   <scm>
     <connection>scm:git:https://git-wip-us.apache.org/repos/asf/flex-site.git</connection>
@@ -167,6 +168,19 @@
             <version>1.9.5</version>
           </dependency>
         </dependencies>
+      </plugin>
+
+      <plugin>
+        <groupId>com.github.s4u.plugins</groupId>
+        <artifactId>sitemapxml-maven-plugin</artifactId>
+        <version>1.0.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>gen</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
 
       <!--
