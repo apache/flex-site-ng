@@ -89,13 +89,13 @@
 
     <bannerLeft>
         <name>Apache Flex</name>
-        <src>img/logo_01_fullcolor-sm.png</src>
+        <src>img/logo-flex.png</src>
         <href>http://flex.apache.org/</href>
     </bannerLeft>
 
     <bannerRight>
         <name>An Apache Project</name>
-        <src>http://www.apache.org/images/feather-small.gif</src>
+        <src>img/logo-asf.png</src>
         <href>http://www.apache.org</href>
     </bannerRight>
 
