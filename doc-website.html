@@ -308,10 +308,15 @@ c['status'].append(mail.MailNotifier(fromaddr=&quot;buildbot@apache.org&quot;,
  <p>At least after this you should see some results in the job overview page.</p> 
 </div> 
 <div class="section"> 
- <h2 id="Open_Issues">Open Issues</h2> 
+ <h2 id="Getting_the_site_online">Getting the site online</h2> 
+ <p>The previous steps will have made sure an up-to-date version of the website is available in the <tt>asf-site</tt> branch of your GIT repo. In order to make it publicly available, you have to make sure <tt>gitpubsub</tt> is configured.</p> 
+ <p>These settings are done in GIT. In contrast to the buildbot configuration this change however has to be done by one of the infra guys. To make things easier, I’ll document what has to be done however:</p> 
  <ol style="list-style-type: decimal"> 
-  <li>As soon the build works and the content is migrated, we have to request Infa to setup <tt>gitpubsub</tt> to sync the content of the <tt>asf-site</tt> with the Flex projects content in the Infra webserver SVN repo.</li> 
+  <li>Checkout the <tt>infrastructure-puppet</tt> GIT repo from: <a class="externalLink" href="https://git1-us-west.apache.org/repos/asf/infrastructure-puppet.git">https://git1-us-west.apache.org/repos/asf/infrastructure-puppet.git</a></li> 
+  <li>Edit the file: <tt>modules/gitwcsub/files/config/gitwcsub.cfg</tt></li> 
+  <li>Add a line to that file: <tt>/www/flex.apache.org/content/ng: flex-site</tt></li> 
  </ol> 
+ <p>This will map the content of the <tt>asf-site</tt> branch of the <tt>flex-site.git</tt> repo to <tt>/www/flex.apache.org/content/ng</tt>. It seems that the web-server is configured to serve the <tt>content</tt> directory, that’s why we have to append the <tt>contenct</tt> to the end of the domain. It seems all the other projects do this differently, so don’t be confused.</p> 
 </div>
 			</div>
 		</div>
