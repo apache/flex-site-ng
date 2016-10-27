@@ -22,11 +22,11 @@
 
 #### Alex Harui
 
-PMC Chair of Apache Flex
-
 aharui (C+P)
 
-![aharui](img/team/aharui.jpg)
+<img src="img/team/aharui.jpg" alt="aharui" class="img-circle about-image"/>
+
+**PMC Chair of Apache Flex**
 
 Alex Harui has been working on the Flex SDK since he joined Macromedia in 2002.  He is now spending most of 
 his time on a next-generation of Flex called FlexJS that cross-compiles MXML and ActionScript into JavaScript so your Flex apps can 
@@ -36,7 +36,7 @@ run without Flash and AIR.
 
 carlosrovira (C)
 
-![carlosrovira](img/team/carlosrovira.jpg)
+<img src="img/team/carlosrovira.jpg" alt="carlosrovira" class="img-circle about-image"/>
 
 Carlos Rovira is a technologist, entrepreneur and businessman. He is passionate about advanced web interfaces and rich multi-device business applications. He is extremely happy when their applications are useful for people, combining functionality and usability. He's founder of various companies including carlosrovira.com in 2007 and <a href="http://www.codeoscopic.com">Codeoscopic</a> in 2009. He's the technical leader behind the <a href="http://www.codeoscopic.com/tecnologia/riality/">Riality</a> Flex/JEE Platform and other successful insurance software products like <a href="http://www.directwriter.es">Direct Writer</a> and <a href="http://www.avant2.es">Avant 2</a>.
 
@@ -53,7 +53,7 @@ Carlos Rovira is a technologist, entrepreneur and businessman. He is passionate 
 
 cframpton (C+P)
 
-![cframpton](img/team/cframpton.jpg)
+<img src="img/team/cframpton.jpg" alt="cframpton" class="img-circle about-image"/>
 
 Carol is a software engineer at Adobe, based outside of Boston.  She worked on Adobe Flex for about five years - FTE and TLF text with Gordon, Spark DataGrid, mirroring and the top bug fixer for the last couple of years - then transitioned with Flex to Apache. Release manager for Apache Flex 4.8.0.  Being a generalist, she's worked on a wide variety of software, including ColdFusion and JRun, kernel-level networking code and distributed networking software.
 
@@ -66,7 +66,7 @@ Carol is a software engineer at Adobe, based outside of Boston.  She worked on A
 
 jbalsas (C)
 
-![jbalsas](img/team/jbalsas.jpg)
+<img src="img/team/jbalsas.jpg" alt="jbalsas" class="img-circle about-image"/>
 
 Web application developer. Focusing on JS right now and trying to help with Falcon and FalconJS as an Apache Flex Commiter.
 
@@ -84,7 +84,7 @@ Web application developer. Focusing on JS right now and trying to help with Falc
 
 cdutz (C+P)
 
-![cdutz](img/team/cdutz.jpg)
+<img src="img/team/cdutz.jpg" alt="cdutz" class="img-circle about-image"/>
 
 Christofer is a software engineer secialized on Flex, Java, Spring and Maven. He is the lead developer of the <a href="https://flexmojos.atlassian.net/wiki/display/FLEXMOJOS/Home" target="_blank">Flexmojos</a> project (Maven plugin for building Flex applications) after taking over from Velo in 2012. His main areas of contribution to the Apache Flex project is creating a tool for creating Mavenized versions of Flex SDKs, continuing to advance Flex' Maven support.
 
@@ -99,7 +99,7 @@ Christofer is a software engineer secialized on Flex, Java, Spring and Maven. He
 
 chrsmrtn (C+P)
 
-![chrsmrtn](img/team/chrsmrtn.jpg)
+<img src="img/team/chrsmrtn.jpg" alt="chrsmrtn" class="img-circle about-image"/>
 
 Chris has been doing Flex UI development since Flex 2 and is very excited to be apart of the Apache Flex Team. With the Apache Flex Team, he feels that the Flex SDK has a bright future. He looks to help with the flex sdk bug verification and patching.
 
@@ -116,7 +116,7 @@ Chris has been doing Flex UI development since Flex 2 and is very excited to be 
 
 darkstone (C)
 
-![darkstone](img/team/darkstone.png)
+<img src="img/team/darkstone.png" alt="darkstone" class="img-circle about-image"/>
 
 DarkStone has been doing Flash since 2002, doing Flex since 2006, doing PHP since 2007, he is both a designer and a developer.
 
@@ -134,7 +134,7 @@ He is now living in Wuhan city of China.
 
 dougarthur (C+P)
 
-![dougarthur](img/team/dougarthur.jpg)
+<img src="img/team/dougarthur.jpg" alt="dougarthur" class="img-circle about-image"/>
 
 Douglas passed away in May, 2012.  He is deeply missed within our community.
 
@@ -144,7 +144,7 @@ Douglas passed away in May, 2012.  He is deeply missed within our community.
 
 erikdebruin (C+P)
 
-![erikdebruin](img/team/erikdebruin.jpg)
+<img src="img/team/erikdebruin.jpg" alt="erikdebruin" class="img-circle about-image"/>
 
 Erik is a software engineer (Flex/Flash, PHP, Delphi, Authorware, to name a few), e-learning consultant and occassional project manager. For the Apache Flex project he is a committer and part of the PMC. He has contributed the SDK Installer Badge, was contributor and co-release manager on the first release of the SDK Installer and is currently busy getting the FalconJx and FlexJS projects off the ground.
 
@@ -152,7 +152,7 @@ Erik is a software engineer (Flex/Flash, PHP, Delphi, Authorware, to name a few)
 
 espenskogen (C+P)
 
-![espenskogen](img/team/espenskogen.jpg)
+<img src="img/team/espenskogen.jpg" alt="espenskogen" class="img-circle about-image"/>
 
 Espen is a Vice President at JP Morgan, where he is leading the development of client facing trading technology. Espen was one of the initial committers and PMC members of Apache Flex.
 
@@ -165,7 +165,7 @@ Espen is a Vice President at JP Morgan, where he is leading the development of c
 
 fthomas (C+P)
 
-![fthomas](img/team/fthomas.jpg)
+<img src="img/team/fthomas.jpg" alt="fthomas" class="img-circle about-image"/>
 
 Freelancer, software architect, Apache Flex PMC Member, trying to make the Flex world better.
 
@@ -181,7 +181,7 @@ Freelancer, software architect, Apache Flex PMC Member, trying to make the Flex 
 
 gordonsmith (C+P)
 
-![gordonsmith](img/team/gordonsmith.png)
+<img src="img/team/gordonsmith.png" alt="gordonsmith" class="img-circle about-image"/>
 
 Gordon is currently working on completing MXML support in the new Falcon compiler.
 He lives in San Francisco and works for Adobe.
@@ -203,7 +203,7 @@ Since 2010 he has been part of the compiler team at Adobe.
 
 harbs (C+P)
 
-![harbs](img/team/harbs.jpg)
+<img src="img/team/harbs.jpg" alt="harbs" class="img-circle about-image"/>
 
 Harbs comes from a print background and his primary interest is in publishing. He keeps himself busy with his multiple technology businesses: 
 <a href="http://in-tools.com">In-Tools</a>, <a href="http://printui.com">PrintUI</a> and <a href="http://unhurdle.com/">UnHurdle</a>. 
@@ -223,7 +223,7 @@ Harbs also spends his time studying Talmud, and with his wife and kids. If there
 
 jhouser (C+P)
 
-![jhouser](img/team/jhouser.jpg)
+<img src="img/team/jhouser.jpg" alt="jhouser" class="img-circle about-image"/>
 
 <a href="http://www.jeffryhouser.com">Jeffry Houser</a> is a technical entrepreneur that likes to share cool stuff with other people. 
 Jeffry is the Brains behind <a href="http://www.flextras.com">Flextras</a>, a library of Open Source Flex Components 
@@ -249,7 +249,7 @@ all over the US, is author of three books, over 30 articles, and hundreds of pod
 
 jtellier (C+P)
 
-![jtellier](img/team/jtellier.jpg)
+<img src="img/team/jtellier.jpg" alt="jtellier" class="img-circle about-image"/>
 
 Macromedia/Adobe Technology evangelist, architect, engineer, Jeremy has implemented a slew of Flash, Flex, & AIR based solutions for startups to fortune 100 companies over the past 15 years.
 
@@ -270,7 +270,7 @@ On a more personal note.... Jeremy feels awkward writing about himself in the th
 
 josebarragan (C)
 
-![josebarragan](img/team/josebarragan.jpg)
+<img src="img/team/josebarragan.jpg" alt="josebarragan" class="img-circle about-image"/>
 
 Jose Barragan is a Software Architect, with over 10 years experience in the enterprise sector. Has a big experience in design, development and implementation of high performance software in corporate environments. Has an extensive knowledge of Flex, Java, Spring, Hibernate, Maven, Git, being the technical co-leader behind the <a href="http://www.codeoscopic.com/tecnologia/riality/">Riality</a> Flex/JEE Platform and other successful insurance software products like <a href="http://www.directwriter.es">Direct Writer</a> and <a href="http://www.avant2.es">Avant 2</a>. Restless mind and enthusiast of new technologies. Always learning from everything and everyone.
 
@@ -287,7 +287,7 @@ Jose Barragan is a Software Architect, with over 10 years experience in the ente
 
 josephlabrecque (C)
 
-![josephlabrecque](img/team/josephlabrecque.jpg)
+<img src="img/team/josephlabrecque.jpg" alt="josephlabrecque" class="img-circle about-image"/>
 
 Joseph Labrecque is primarily employed by the University of Denver as a senior interactive software engineer specializing in the creation of expressive desktop, web, and mobile solutions. He is also the proprietor of Fractured Vision Media, LLC. Joseph is an Adobe Education Leader and Adobe Community Professional.
 
@@ -309,7 +309,7 @@ Joseph Labrecque is primarily employed by the University of Denver as a senior i
 
 joshtynjala (C+P)
 
-![joshtynjala](img/team/joshtynjala.jpg)
+<img src="img/team/joshtynjala.jpg" alt="joshtynjala" class="img-circle about-image"/>
 
 <a href="https://twitter.com/joshtynjala">Josh Tynjala</a> is the author of the open source <a href="http://feathersui.com/">Feathers</a> user interface components for Starling Framework. In addition to improving the Apache FlexJS compilers, Josh teaches developers how to transpile ActionScript on his website, <a href="http://nextgenactionscript.com/">NextGen ActionScript</a>.
 
@@ -323,7 +323,7 @@ joshtynjala (C+P)
  
 junheider (C+P)
 
-![junheider](img/team/junheider.jpg)
+<img src="img/team/junheider.jpg" alt="junheider" class="img-circle about-image"/>
 
 Helping Apache Flex grow through mentoring and community awareness. An officer of the Open Spoon Foundation. Cross-platform Flex mobile developer at RealEyes Media with a focus in video and multiuser applications. Adjunct Faculty at University of Denver, University College teaching students how to build native applications with Adobe AIR.
 
@@ -337,7 +337,7 @@ Helping Apache Flex grow through mentoring and community awareness. An officer o
 
 jmclean (C+P)
 
-![jmclean](img/team/jmclean.jpg)
+<img src="img/team/jmclean.jpg" alt="jmclean" class="img-circle about-image"/>
 
 Experienced web application developer, certified trainer, international conference speaker and Arduino tinkerer. Interesting in making Apache Flex more international and work on a wider range of platforms. Added international postcode support and locales to Apache Flex 4.9.0. Release manager for Apache Flex 4.9.0.
 
@@ -354,7 +354,7 @@ Experienced web application developer, certified trainer, international conferen
 
 akamud (C)
 
-![akamud](img/team/akamud.jpg)
+<img src="img/team/akamud.jpg" alt="akamud" class="img-circle about-image"/>
 
 .NET and Apache Flex developer, working on Web and mobile applications. One of the creators of the <a href="https://github.com/akamud/FlatSpark">FlatSpark</a> skin, a project to bring a more clean and modern look to Apache Flex applications, recently donated to Apache Software Foundation. His goal as a committer is to continue improving and creating new Skins and components for Flex.
 
@@ -375,7 +375,7 @@ Also feels weird describing himself in the third person.
 
 mamsellem (C+P)
 
-![mamsellem](img/team/mamsellem.jpg)
+<img src="img/team/mamsellem.jpg" alt="mamsellem" class="img-circle about-image"/>
 
 Maurice has been working for <a href="http://www.systar.com">Systar</a> since 1996 in various positions, and since 2009 as a software engineer on a Flex-based BAM application development framework.
 
@@ -392,7 +392,7 @@ He is based in Paris area, France.
 
 solomax (C)
 
-![solomax](img/team/solomax.jpg)
+<img src="img/team/solomax.jpg" alt="solomax" class="img-circle about-image"/>
 
 Maxim developing desktop and mobile applications working with video components.</p><p>The main contribution so far was Russian translation of various Flex components</p><p>He currently lives in Novosibirsk, Russia.
 
@@ -408,7 +408,7 @@ Maxim developing desktop and mobile applications working with video components.<
 
 mschmalle (C+P)
 
-![mschmalle](img/team/mschmalle.jpg)
+<img src="img/team/mschmalle.jpg" alt="mschmalle" class="img-circle about-image"/>
 
 Past; ActionScript since 2001 and ui component developer. Created a read/write DOM for ActionScript in AS3 and Java, familiar with parsers and compilers.
 
@@ -432,7 +432,7 @@ I don't claim to be anything I'm not, the third person scares me.
 
 quetwo (C+P)
 
-![quetwo](img/team/quetwo.jpg)
+<img src="img/team/quetwo.jpg" alt="quetwo" class="img-circle about-image"/>
 
 Working on components, website, marketing.
 
@@ -449,7 +449,7 @@ Working on components, website, marketing.
 
 okrueger (C)
 
-![okrueger](img/team/okrueger.png)
+<img src="img/team/okrueger.png" alt="okrueger" class="img-circle about-image"/>
 
 Olaf believes in the power and beauty of simplicity in all respects.</p><p>Employed at a leading automotive supplier for hinge systems he creates software for internal use. For many years and still with great passion.</p><p>Olaf would like to help to bring the Material Design to Flex/FlexJS
 
@@ -462,7 +462,7 @@ Olaf believes in the power and beauty of simplicity in all respects.</p><p>Emplo
 
 s9tpepper (C+P)
 
-![s9tpepper](img/team/s9tpepper.jpg)
+<img src="img/team/s9tpepper.jpg" alt="s9tpepper" class="img-circle about-image"/>
 
 Apache Flex committer and PMC member. Test driven development enthusiast. Wrestles code all day. Developing Flash since 2000, Flex since version 2 beta. Senior Architect for <a href="http://almerblank.com" target="_blank">almer/blank</a> developing front-ends and back-ends in HTML5, JavaScript, Flash, Flex, Node.js, PHP, MySQL and MongoDB, just to name a few. Interested in expanding Apache Flex beyond the Flash Player plugin as well as other random experiments.
 
@@ -478,7 +478,7 @@ Apache Flex committer and PMC member. Test driven development enthusiast. Wrestl
 
 bigosmallm (C+P)
 
-![bigosmallm](img/team/bigosmallm.jpg)
+<img src="img/team/bigosmallm.jpg" alt="bigosmallm" class="img-circle about-image"/>
 
 Om 'bigosmallm' Muppirala is a UI architect with years of experience building Flex and Flash based applications. He has been working on various tools and utilities aimed at making life easier for Apache Flex developers and users(SDK Installer, OneClick Mustella, etc.)  Also interested in contributing more web and mobile Flex components.
 
@@ -494,7 +494,7 @@ Om 'bigosmallm' Muppirala is a UI architect with years of experience building Fl
 
 peterelst (C+P)
 
-![peterelst](img/team/peterelst.jpg)
+<img src="img/team/peterelst.jpg" alt="peterelst" class="img-circle about-image"/>
 
 Peter is a Web Solutions Engineer at Google, an author of multiple ActionScript books, speaker at various industry events and longtime supporter of Flex as a platform.</p><p>In his spare time, you can find him blogging at <a href="http://www.peterelst.com">www.peterelst.com</a>.
 
@@ -509,7 +509,7 @@ Peter is a Web Solutions Engineer at Google, an author of multiple ActionScript 
 
 piotrz (C+P)
 
-![piotrz](img/team/piotrz.jpg)
+<img src="img/team/piotrz.jpg" alt="piotrz" class="img-circle about-image"/>
 
 Piotr has been working with Flex since 2008 in various project. He always stays open for self-development opportunity.</p><p>He currently lives in Cracow, Poland.
 
@@ -523,7 +523,7 @@ Piotr has been working with Flex since 2008 in various project. He always stays 
 
 splath (C)
 
-![splath](img/team/splath.jpg)
+<img src="img/team/splath.jpg" alt="splath" class="img-circle about-image"/>
 
 <!-- Social Icons -->
 <ul class="social-icons">
@@ -534,7 +534,7 @@ splath (C)
 
 tomc (P+C)
 
-![tomc](img/team/tomc.jpg)
+<img src="img/team/tomc.jpg" alt="tomc" class="img-circle about-image"/>
 
 Tom has been building internet applications since before the term RIA, and was part of the community contributing to Flex while it was looked after by Adobe.</p><p>Within Apache Flex his focus is on making sure the experience on Linux is on par with the other supported platforms, as well as pitching in keeping the Jenkins servers running.</p><p>He currently lives in Manchester, UK.
 
@@ -553,7 +553,7 @@ Tom has been building internet applications since before the term RIA, and was p
 
 bdelacretaz (C+P)
 
-![bdelacretaz](img/team/bdelacretaz.jpg)
+<img src="img/team/bdelacretaz.jpg" alt="bdelacretaz" class="img-circle about-image"/>
 
 I'm happy to have been able to help Flex incubate at Apache, the team did a great job in creating a successful Apache project. I left the PMC on graduation to free some time for other podlings, wishing Flex a bright future!
 
@@ -566,7 +566,7 @@ I'm happy to have been able to help Flex incubate at Apache, the team did a grea
 Project Mentor
 wave (C+P)
 
-![wave](img/team/wave.jpg)
+<img src="img/team/wave.jpg" alt="wave" class="img-circle about-image"/>
 
 I'm fascinated by the communities that develop around projects at Apache I really enjoy the spirit here in the Apache Flex project. I am particularly interested in documents and am on the Apache POI and OpenOffice PMCs. Apache Flex for office documents anyone?
 
@@ -581,7 +581,7 @@ I live in San Francisco where the weather is mild.
 Project Mentor
 greddin (C+P)
 
-![greddin](img/team/default-male.jpg)
+<img src="img/team/default-male.jpg" alt="greddin" class="img-circle about-image"/>
 
 <!-- Social Icons -->
 <ul class="social-icons">
