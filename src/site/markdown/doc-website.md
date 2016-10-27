@@ -150,7 +150,15 @@ In order to do this, you need to
 
 At least after this you should see some results in the job overview page.
 
-## Open Issues
+## Getting the site online
 
-1. As soon the build works and the content is migrated, we have to request Infa to setup `gitpubsub` to sync the content of the `asf-site` with the Flex projects content in the Infra webserver SVN repo.
+The previous steps will have made sure an up-to-date version of the website is available in the `asf-site` branch of your GIT repo. In order to make it publicly available, you have to make sure `gitpubsub` is configured.
+
+These settings are done in GIT. In contrast to the buildbot configuration this change however has to be done by one of the infra guys. To make things easier, I'll document what has to be done however:
+
+1. Checkout the `infrastructure-puppet` GIT repo from: https://git1-us-west.apache.org/repos/asf/infrastructure-puppet.git
+2. Edit the file: `modules/gitwcsub/files/config/gitwcsub.cfg`
+3. Add a line to that file: `/www/flex.apache.org/content/ng: flex-site` 
+
+This will map the content of the `asf-site` branch of the `flex-site.git` repo to `/www/flex.apache.org/content/ng`. It seems that the web-server is configured to serve the `content` directory, that's why we have to append the `contenct` to the end of the domain. It seems all the other projects do this differently, so don't be confused.
 
